@@ -1,0 +1,21 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Airflow runtime files
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# macOS
+.DS_Store
+
+# Generated Airflow configuration
+config/airflow.cfg
